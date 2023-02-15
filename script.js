@@ -79,7 +79,4 @@ btnHold.addEventListener('click', function () {
   }
 });
 
-btnNew.addEventListener('click', function () {
-  //remove winner class
-  init();
-});
+btnNew.addEventListener('click', init);
